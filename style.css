@@ -1,0 +1,205 @@
+*
+{
+ margin:0;
+ padding:0;
+}
+
+
+body
+{
+    font-family: sans-serif; 
+}
+ 
+#nav-bar
+{
+    position: sticky;
+    background-color: #5D534A;
+    text-decoration-color: none !important;
+    color: #060000 !important;
+    top :0;
+    z-index:10;
+}
+
+.navbar-brand img{
+    height: 50px;
+    padding-left: 20px;
+}
+.nav-bar li{
+    padding: 0, 10;
+}
+.nav-item li a{
+    background-color:#060000;
+    margin-top: -100;
+    text-decoration: none !important;
+    color: #060000 !important;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+.link{
+    background-color:#060000;
+    margin-top: -100;
+    text-decoration: none !important;
+    color: #060000 !important;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+
+}
+.fa-bars{
+       color: #0c0000 !important;
+       font-size: 30px;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* hero section */
+
+.hero{
+    background-color: #5D534A;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+     color: white;
+     padding-top: 5%;
+}
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.search {
+    width: 400;
+    margin: 20;
+
+.form-control{
+    border-radius: 100px;
+}
+
+    
+}
+.hero-img{
+ margin-top:5px ;
+  width: 500px;
+  height: 300px; 
+  border-radius: 10px;
+}
+
+/* Over a decade we’re still exist?  */
+.services{
+    margin-top: 30px;
+    
+    text-align: center;
+
+    .exist {
+          font-size: 40px;
+         font-weight: 500px;
+         text-align: center;
+    }
+    .services-house{
+        font-size: 10px;
+        margin-top: -20px;
+        
+    }
+}
+
+
+.customers-sevices{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400px;
+}
+.sevice-img{
+    align-items: center;
+    justify-items: center;
+    margin-top:20px ;
+    width: 400px;
+    /* height: 50px;  */
+
+}
+
+
+/* invest for future */
+.card-invest{
+   align-items: center;
+   
+   justify-content: center;
+   
+   margin-top: 50px;
+   padding-right: -50px;
+}
+
+.card-body-invest{
+    width: 400px;
+
+
+    .card-title-invest{
+         font-size: 20px;
+         font-weight: 500;
+    }
+    .btn-invest{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 80px;
+    }
+};
+/* Featuresd Properties */
+
+.featuresd-pro{
+    text-align: center;
+    margin-top: 40px;
+    color: aquamarine;
+
+
+}
+
+.feature{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+ .outstanding{
+    text-align: center;
+    font-size: 10;
+    margin-top: -10px;
+    
+ }
+
+ .p{
+    text-align: center;
+ }
+
+
+
+
+ /* CONTACT US FORM */
+
+
+ #nav-bar-contact{
+    position: sticky;
+    background-color: #004346;
+    text-decoration-color: none !important;
+    color: #060000 !important;
+    top :0;
+    z-index:10;
+  }
+
+  .contactus-body{
+     background-color: #004346;
+     color: aliceblue
+  }
+
+  .form{
+
+    margin-top: 5px;
+    padding: 20px;
+    content: center;
+    align-items: center;
+    justify-items: center;
+    width: 250px;
+
+  }
