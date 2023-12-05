@@ -3,7 +3,7 @@
  margin:0;
  padding:0;
 }
-
+a { color: inherit; } 
 
 body
 {
@@ -58,20 +58,29 @@ body
 
 .hero{
     background-color: #5D534A;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
+   text-align: start;
+   justify-content: start;
      color: white;
-     padding-top: 5%;
 }
 .title{
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 5px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.title-body{ 
+      text-align: start;
+    margin-top: 5rem;
 }
 .search {
     width: 400;
     margin: 20;
+    margin-top: 2rem;
+    align-content: center;
+    justify-items: center;
+     
+    margin-bottom: 10px; /* Added */
+    width: 400px;
+
 
 .form-control{
     border-radius: 100px;
@@ -80,7 +89,7 @@ body
     
 }
 .hero-img{
- margin-top:5px ;
+ 
   width: 500px;
   height: 300px; 
   border-radius: 10px;
@@ -128,7 +137,7 @@ body
    justify-content: center;
    
    margin-top: 50px;
-   padding-right: -50px;
+   /* padding-right: -50px; */
 }
 
 .card-body-invest{
@@ -187,19 +196,71 @@ body
     top :0;
     z-index:10;
   }
+  
 
   .contactus-body{
      background-color: #004346;
      color: aliceblue
   }
+  
+  .contact-us{
+    margin-top: 5rem;
+    font-size: 30px;
+         font-weight: 300px;
+         text-align: center;
 
+  }
   .form{
+    
 
-    margin-top: 5px;
+    margin-top: 5rem;
     padding: 20px;
-    content: center;
-    align-items: center;
-    justify-items: center;
-    width: 250px;
+     margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 400px;
+
+    /* .border{
+         border: #e8efef;
+         border-width: 500px;
+
+    } */
+    .formbutton{
+        margin-top: 2rem;
+        
+        float: none; /* Added */
+         margin-bottom: 10px; /* Added */
+      
+    }
+
+  }
+
+
+
+  /* footer styling */
+  .footer{
+    position: sticky;
+    background-color: #CFDAC8;
+    text-decoration-color: none !important;
+
+  }
+
+
+.footerimgtext{
+       margin-top: 20;
+       font-size: 10;
+}
+  
+
+/* about us page styling */
+.aboutustitle{
+    font-size: 40px;
+     font-weight: 500;
+     margin-top: 5rem;
+}
+.textbody{
+    padding: 5rem;  
+    text-align: center;
+     word-break: break-word
 
   }
