@@ -22,6 +22,7 @@ Welcome to the Real Estate Website! This website is designed to showcase propert
 1. Clone the repository:
     ```bash
     git clone https://github.com/Onibless/real_estate_app
+    git pages https://github.com/Onibless/real_estate_app
     ```
 
 2. Open the `index.html` file in your preferred web browser.
